@@ -25,7 +25,7 @@ function Accordion() {
   return (
     <>
       <p className="text-center text-3xl">This is accordion</p>
-      <div className=" mt-12 flex justify-center items-center flex-col w-screen">
+      <div className=" mt-12 flex justify-center items-center flex-col w-screen ">
         <button
           className={`text-lime-900 m-4 ${
             multiSelection ? `bg-red-500` : `bg-blue-300`
