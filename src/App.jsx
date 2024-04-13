@@ -1,4 +1,5 @@
 import Accordion from "./components/accordion";
+import ImageCarousel from "./components/image_carousel";
 import RandomColorGenerator from "./components/random_color_generator";
 import Star from "./components/star-rating";
 
@@ -8,8 +9,13 @@ function App() {
       {/* <h1 className="font-bold underline text-yellow-500">Jai Shri Hari</h1> */}
       {/* Accordion */}
       {/* <Accordion /> */}
-      <RandomColorGenerator/>
-      <Star/>
+      <RandomColorGenerator />
+      <Star />
+      <ImageCarousel
+        url={"https://picsum.photos/v2/list"}
+        page={'1'}
+        limit={'10'}
+      />
     </>
   );
 }
