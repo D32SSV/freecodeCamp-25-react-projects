@@ -84,4 +84,3 @@ function ImageCarousel({ url, limit = 10, page = 1 }) {
 }
 
 export default ImageCarousel;
-// style={{padding:"1rem",height:"20rem", width:"20rem" }}
