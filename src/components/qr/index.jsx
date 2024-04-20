@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import QRCode from "react-qr-code";
+import useDebounce from "./hooks/useDebounce";
 
 function QR() {
   const [value, setValue] = useState("");
+  const debouncedValue = useDebounce(value, 700) || "";
   function handleChange(e) {
     setValue(e.target.value);
   }
@@ -12,7 +14,7 @@ function QR() {
       <QRCode
         size={256}
         style={{ height: "auto", maxWidth: "20%", width: "100%" }}
-        value={value}
+        value={debouncedValue}
       />
       <input
         onChange={(e) => handleChange(e)}
