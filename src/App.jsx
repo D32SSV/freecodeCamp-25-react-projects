@@ -10,6 +10,7 @@ import SwitchTheme from "./components/switchTheme";
 import Scroll from "./components/scroll_Indicator";
 import CustomTab from "./components/custom_tabs";
 import CustomModal from "./components/Modal";
+import Github_Profile from "./components/github_profile";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       {/* <Scroll url={"https://dummyjson.com/products?limit=100"} /> */}
       {/* <CustomTab /> */}
       <CustomModal />
+      <Github_Profile />
     </>
   );
 }
