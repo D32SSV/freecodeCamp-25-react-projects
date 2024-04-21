@@ -11,6 +11,7 @@ import Scroll from "./components/scroll_Indicator";
 import CustomTab from "./components/custom_tabs";
 import CustomModal from "./components/Modal";
 import Github_Profile from "./components/github_profile";
+import SearchAutoComplete from "./components/search_autoComplete";
 
 function App() {
   return (
@@ -28,11 +29,12 @@ function App() {
       <LoadMore /> */}
       {/* <Tree menus={menus} /> */}
       {/* <QR /> */}
-      <SwitchTheme />
+      {/* <SwitchTheme /> */}
       {/* <Scroll url={"https://dummyjson.com/products?limit=100"} /> */}
       {/* <CustomTab /> */}
-      <CustomModal />
-      <Github_Profile />
+      {/* <CustomModal /> */}
+      {/* <Github_Profile /> */}
+      <SearchAutoComplete />
     </>
   );
 }
