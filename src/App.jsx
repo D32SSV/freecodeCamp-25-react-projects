@@ -14,6 +14,7 @@ import Github_Profile from "./components/github_profile";
 import SearchAutoComplete from "./components/search_autoComplete";
 import TicTacToe from "./components/tic_tac_toe";
 import FetchHookTestItem from "./components/useFetchCustomHook/test";
+import ClickOutsideTestItem from "./components/useClickOutside/test";
 
 function App() {
   return (
@@ -38,7 +39,8 @@ function App() {
       {/* <Github_Profile /> */}
       {/* <SearchAutoComplete /> */}
       {/* <TicTacToe /> */}
-      <FetchHookTestItem />
+      {/* <FetchHookTestItem /> */}
+      <ClickOutsideTestItem />
     </>
   );
 }
