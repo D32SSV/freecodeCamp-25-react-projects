@@ -13,6 +13,7 @@ import CustomModal from "./components/Modal";
 import Github_Profile from "./components/github_profile";
 import SearchAutoComplete from "./components/search_autoComplete";
 import TicTacToe from "./components/tic_tac_toe";
+import FetchHookTestItem from "./components/useFetchCustomHook/test";
 
 function App() {
   return (
@@ -36,7 +37,8 @@ function App() {
       {/* <CustomModal /> */}
       {/* <Github_Profile /> */}
       {/* <SearchAutoComplete /> */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+      <FetchHookTestItem />
     </>
   );
 }
