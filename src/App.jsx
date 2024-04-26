@@ -16,6 +16,7 @@ import TicTacToe from "./components/tic_tac_toe";
 import FetchHookTestItem from "./components/useFetchCustomHook/test";
 import ClickOutsideTestItem from "./components/useClickOutside/test";
 import WindowResizeTestItem from "./components/useWindowResize/test";
+import ScrollToSection from "./components/scrollToTopnBottom";
 
 function App() {
   return (
@@ -42,7 +43,8 @@ function App() {
       {/* <TicTacToe /> */}
       {/* <FetchHookTestItem /> */}
       {/* <ClickOutsideTestItem /> */}
-      <WindowResizeTestItem />
+      {/* <WindowResizeTestItem /> */}
+      <ScrollToSection />
     </>
   );
 }
